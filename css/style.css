@@ -1,0 +1,167 @@
+
+body {
+  font-family: 'archer', sans-serif; 
+}
+
+
+#hero {
+  background-image: url("/images/hero-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+.nav-link.active {
+  font-weight: 800;
+  text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color:white !important;
+
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+  padding:5%;
+}
+nav{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav .hamburger {
+  width:180px ;
+  text-align: right;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:80%;
+
+}
+
+.jumbotron p {
+  text-align: center;
+  color: white;
+
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+
+  font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+  background-color: #ccbcad;
+}
+
+
+#adventure {
+
+  margin-top: 25px;
+  margin-bottom: 200px;
+}
+
+#adventure h4 {
+text-align:center;
+font-size:38px;
+margin-bottom:100px;
+
+}
+
+
+#adventure .adventure-card {
+background-color: #ccbcad;
+background-size:cover ;
+height:565px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.adventure-card .card-items {
+  margin-left:40px;
+  margin-right:60px;
+  color:#283426;
+  align-items: center;
+justify-content: center;
+  
+
+
+}
+
+.btn-primary {
+  background-color:#ccbcad;
+  border-color: #283426;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color:#283426;
+  border-color: #283426;
+}
+
+.adventure-card .card-items .card-icon {
+  width:75%;
+
+}
+
+h4 {
+  color:#283426;
+}
+
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;padding:30px;
+  background-color: #283426;
+  
+}
+
+footer ul li a {
+  color:#ffffff;
+  text-decoration:none;
+  
+}
+
+.back-top {
+
+  padding:30px;
+}
+
+.back-top  img {
+  transform: rotate(180deg);
+
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
